@@ -1,2 +1,2 @@
-#地理思维
-TODO: www.geothinking.cn
+# 地理思维
+www.geothinking.cn
