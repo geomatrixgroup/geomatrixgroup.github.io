@@ -2,58 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.geothinking.cn/map/index.html</loc>
-    
-    <lastmod>2017-06-16T02:45:59.722Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.geothinking.cn/home/index.html</loc>
     
-    <lastmod>2017-06-16T02:39:54.342Z</lastmod>
+    <lastmod>2017-06-19T01:04:40.883Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.geothinking.cn/posts/course/%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E7%9A%84%E5%8F%98%E6%8D%A2%E7%AE%97%E6%B3%95/</loc>
+    <loc>http://www.geothinking.cn/posts/%E8%BF%9B%E5%BA%A6-progress05/</loc>
     
-    <lastmod>2017-06-13T09:16:41.592Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.geothinking.cn/posts/course/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95%E7%AE%97%E6%B3%95/</loc>
-    
-    <lastmod>2017-06-13T09:16:30.800Z</lastmod>
+    <lastmod>2017-06-18T06:38:00.236Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.geothinking.cn/posts/course/GIS%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/</loc>
+    <loc>http://www.geothinking.cn/posts/%E8%BF%9B%E5%BA%A6-progress03/</loc>
     
-    <lastmod>2017-06-13T05:31:24.205Z</lastmod>
+    <lastmod>2017-06-18T06:36:21.044Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.geothinking.cn/posts/%E8%BF%9B%E5%BA%A6-progress04/</loc>
+    
+    <lastmod>2017-06-18T06:36:21.044Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.geothinking.cn/posts/%E8%BF%9B%E5%BA%A6-progress02/</loc>
+    
+    <lastmod>2017-06-18T06:36:21.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.geothinking.cn/posts/%E8%BF%9B%E5%BA%A6-progress01/</loc>
+    
+    <lastmod>2017-06-18T06:36:21.038Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.geothinking.cn/achievement/index.html</loc>
     
-    <lastmod>2017-06-13T03:16:30.140Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.geothinking.cn/progress/index.html</loc>
-    
-    <lastmod>2017-06-13T03:14:47.665Z</lastmod>
+    <lastmod>2017-06-18T06:30:15.163Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.geothinking.cn/about/index.html</loc>
     
-    <lastmod>2017-06-13T03:13:52.953Z</lastmod>
+    <lastmod>2017-06-18T05:07:10.090Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.geothinking.cn/map/index.html</loc>
+    
+    <lastmod>2017-06-16T13:37:52.857Z</lastmod>
     
   </url>
   
