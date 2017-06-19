@@ -2345,3 +2345,7 @@ ol.toc {
 #profile {
   float: right;
 }
+
+.file > a{
+	color:#38B7EA
+}
