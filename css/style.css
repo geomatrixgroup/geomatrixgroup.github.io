@@ -1781,6 +1781,9 @@ ol.toc {
     margin: 0 0.789473684210526%;
   }
 }
+.file > a {
+  color: #00f;
+}
 .widget {
   line-height: 1.6em;
   word-wrap: break-word;
@@ -1870,7 +1873,7 @@ ol.toc {
   padding: 15px 5px;
 }
 .widget a {
-  color: #777;
+  color: #000;
   text-decoration: none;
 }
 .widget a:hover {
@@ -2344,8 +2347,4 @@ ol.toc {
 }
 #profile {
   float: right;
-}
-
-.file > a{
-	color:#38B7EA
 }
