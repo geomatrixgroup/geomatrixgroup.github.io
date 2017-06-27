@@ -2105,8 +2105,15 @@ ol.toc {
   word-wrap: break-word;
 }
 #categories li a,
-#categories li a:hover {
+{
   display: block;
+  text-decoration: none;
+}
+
+#categories li a:hover {
+    color: blue;
+    font-weight: bold;
+	display: block;
   text-decoration: none;
 }
 #categories li a:focus:before {
