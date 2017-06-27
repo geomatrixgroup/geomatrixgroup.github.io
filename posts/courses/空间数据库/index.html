@@ -159,9 +159,6 @@ var _hmt = _hmt || [];
         <h3 class="widget-title">
             <span>课程目录</span>
             &nbsp;
-            <a id='allExpand' href="#">
-                <i class="fa fa-angle-double-down fa-2x"></i>
-            </a>
         </h3>
         
         
@@ -312,6 +309,7 @@ var _hmt = _hmt || [];
             var iconAllPackClass = 'fa-angle-double-up';
             // Handle directory-tree expansion:
             // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
                 event.preventDefault();
 
                 var icon = $(this).children('.fa');
@@ -329,6 +327,7 @@ var _hmt = _hmt || [];
                     }
                     icon.addClass(iconFolderOpenClass);
                 }
+            });
             // 右键展开下属所有目录
             $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
                 event.preventDefault();
