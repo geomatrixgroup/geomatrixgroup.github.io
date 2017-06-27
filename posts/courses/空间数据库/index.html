@@ -205,17 +205,18 @@ var _hmt = _hmt || [];
 						</li>
 						
 						 <li class="directory">
-								<span>
-								<i class="fa fa-folder-open"></i>
+							<a href="#" data-role="directory">
+								<i class="fa fa-folder"></i>
 								&nbsp;
-								第三部分 空间数据库</span>
-							 <ul> 
-								 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第一章 空间概念和数据模型/">第一章 空间概念和数据模型</a></li> 
-								 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第二章 空间查询语言/">第二章 空间查询语言</a></li> 
-								 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第三章 空间数据索引/">第三章 空间数据索引</a></li> 
-								 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第四章 空间查询处理与优化/">第四章 空间查询处理与优化</a></li>
-								 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第五章 空间数据库设计与建库/">第五章 空间数据库设计与建库</a></li>
-								 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第六章 空间数据分析/">第六章 空间数据分析</a></li>
+								第三部分 空间数据库
+							</a>
+							 <ul class="unstyled" id="tree" > 
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第一章 空间概念和数据模型/">第一章 空间概念和数据模型</a></li> 
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第二章 空间查询语言/">第二章 空间查询语言</a></li> 
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第三章 空间数据索引/">第三章 空间数据索引</a></li> 
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第四章 空间查询处理与优化/">第四章 空间查询处理与优化</a></li>
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第五章 空间数据库设计与建库/">第五章 空间数据库设计与建库</a></li>
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第六章 空间数据分析/">第六章 空间数据分析</a></li>
 							 </ul> 
 						</li>
 						
@@ -311,7 +312,7 @@ var _hmt = _hmt || [];
             var iconAllPackClass = 'fa-angle-double-up';
             // Handle directory-tree expansion:
             // 左键单独展开目录
-            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+            $(document).on('load', '#categories a[data-role="directory"]', function (event) {
                 event.preventDefault();
 
                 var icon = $(this).children('.fa');
