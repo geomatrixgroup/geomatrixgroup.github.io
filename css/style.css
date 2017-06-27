@@ -2084,9 +2084,6 @@ ol.toc {
 #categories li.directory.open > ul {
   display: block;
 }
-#categories li.directory {
-  font-weight: bold;
-}
 #categories li.directory > a {
   color: #333;
 }
