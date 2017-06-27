@@ -2348,3 +2348,6 @@ ol.toc {
 #profile {
   float: right;
 }
+.header-inner #logo:hover {
+    color: color;
+}
