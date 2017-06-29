@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+    
+    <title>空间数据库 | GeoThinking</title>
+    
+    
+        <meta name="keywords" content="空间数据库" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="GeoThinking" type="application/atom+xml" />
+    
+
+    
+        <link rel="icon" href="/favicon.ico" />
+    
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+    <script src="/libs/jquery/jquery.js"></script>
+	<script src="/libs/bootstrap/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/libs/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <link rel="stylesheet" href="/css/about.css">
+    <script src="/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+       <style>
+    h1,
+    h2 {
+        font-weight: 700;
+    }
+    h3 span {
+        color: #286090;
+    }
+    section {
+        padding: 40px 0;
+        border-bottom: 1px solid #c1e1ec;
+    }
+    section:last-child {
+        border-bottom: none;
+    }
+
+    </style>
+    
+        <script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?5e7ac7bee4b8bb473068503a350169f6";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+    
+
+
+</head>
+
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+            <nav class="navbar navbar-default" role="navigation" >
+				<a href="/" id="logo" style="color:white;">
+					
+					<span class="site-title">GeoThinking</span>
+				</a>
+			<div>
+				<ul class="nav nav-pills">
+                
+				
+					
+					<li>
+						<a href="/" >首页
+					</a>
+					</li>
+					
+					
+				
+					
+					<li>
+						<a href="/about/" >团队概况
+					</a>
+					</li>
+					
+					
+				
+					
+					<li>
+						<a href="/archives/" >研究进展
+					</a>
+					</li>
+					
+					
+				
+					
+					<li>
+						<a href="/achievement/" >科研成果
+					</a>
+					</li>
+					
+					
+				
+						
+						<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">教学课程
+						<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							
+								<li><a href="/posts/courses/GIS算法基础/课堂教学/第1章 算法设计和分析 ">GIS算法基础</a></li>
+						
+								<li><a href="/posts/courses/空间数据库/数据库理论/第一章 绪论/">空间数据库</a></li>
+						
+						</ul>
+						</li>
+						
+					
+				
+					
+					 
+					
+					
+				</ul>
+				</div>
+            </nav>
+            
+    </div>
+</header>
+
+        <div class="outer">
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>课程目录</span>
+            &nbsp;
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" >
+						
+						<li class="directory">
+							<span style="color:black">
+								<i class="fa fa-folder-open"></i>
+								&nbsp;
+								第一部分 数据库理论
+							</span>
+							 <ul style="display:block" > 
+							     <li class="file"><a href=" /posts/courses/空间数据库/数据库理论/第一章 绪论/">第一章 绪论</a></li> 
+								 <li class="file"><a href=" /posts/courses/空间数据库/数据库理论/第二章 关系模型/">第二章 关系模型</a></li> 
+								 <li class="file"><a href=" /posts/courses/空间数据库/数据库理论/第三章 关系系统及其查询优化/">第三章 关系系统及其查询优化</a></li>  
+								 <li class="file"><a href=" /posts/courses/空间数据库/数据库理论/第四章 关系数据理论/">第四章 关系数据理论</a></li>  
+								 <li class="file"><a href=" /posts/courses/空间数据库/数据库理论/第五章 数据库设计/">第五章 数据库设计</a></li> 
+								 <li class="file"><a href=" /posts/courses/空间数据库/数据库理论/第六章 数据恢复技术/">第六章 数据恢复技术</a></li> 
+								 <li class="file"><a href=" /posts/courses/空间数据库/数据库理论/第七章 并发控制/">第七章 并发控制</a></li>  
+							 </ul> 
+						</li>
+						
+						<li class="directory">
+							<span style="color:black">
+								<i class="fa fa-folder-open"></i>
+								&nbsp;
+								第二部分 SQL语句
+							</span>
+							 <ul style="display:block;" > 
+								 <li class="file"><a href="/posts/courses/空间数据库/SQL语句/第一章 SQL Select语句基础/">第一章 SQL Select语句基础</a></li>  
+								 <li class="file"><a href="/posts/courses/空间数据库/SQL语句/第二章 限制、排序与操纵返回的数据/">第二章 限制、排序与操纵返回的数据</a></li> 
+								 <li class="file"><a href="/posts/courses/空间数据库/SQL语句/第三章 单行函数/">第三章 单行函数</a></li> 
+								 <li class="file"><a href="/posts/courses/空间数据库/SQL语句/第四章 从多个表获取数据/">第四章 从多个表获取数据</a></li> 
+								 <li class="file"><a href="/posts/courses/空间数据库/SQL语句/第五章 聚集和组函数/">第五章 聚集和组函数</a></li> 
+								 <li class="file"><a href="/posts/courses/空间数据库/SQL语句/第六章 子查询/">第六章 子查询</a></li>
+								 <li class="file"><a href="/posts/courses/空间数据库/SQL语句/第七章 生成数据库对象/">第七章 生成数据库对象</a></li> 
+								 <li class="file"><a href="/posts/courses/空间数据库/SQL语句/第八章 操纵数据库对象/">第八章 操纵数据库对象</a></li> 
+								 <li class="file"><a href="/posts/courses/空间数据库/SQL语句/第九章 生成报表/">第九章 生成报表</a></li>
+							 </ul> 
+						</li>
+						
+						 <li class="directory">
+							<span style="color:black">
+								<i class="fa fa-folder-open"></i>
+								&nbsp;
+								第三部分 空间数据库
+							</span>
+							 <ul style="display:block;" > 
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第一章 空间概念和数据模型/">第一章 空间概念和数据模型</a></li> 
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第二章 空间查询语言/">第二章 空间查询语言</a></li> 
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第三章 空间数据索引/">第三章 空间数据索引</a></li> 
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第四章 空间查询处理与优化/">第四章 空间查询处理与优化</a></li>
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第五章 空间数据库设计与建库/">第五章 空间数据库设计与建库</a></li>
+							 <li class="file"><a href="/posts/courses/空间数据库/空间数据库/第六章 空间数据分析/">第六章 空间数据分析</a></li>
+							 </ul> 
+						</li>
+						
+						<li class="directory">
+							<span style="color:black">
+								<i class="fa fa-folder-open"></i>
+								&nbsp;
+								第四部分 数据库应用
+							</span>
+							 <ul style="display:block;" >  
+								<li class="file"><a href="/posts/courses/空间数据库/数据库应用/">数据库应用</a></li>
+							 </ul> 
+						</li>
+						
+						<li class="directory">
+							<span style="color:black">
+								<i class="fa fa-folder-open"></i>
+								&nbsp;
+								附件1 课程练习
+							</span>
+							 <ul style="display:block;"> 
+								 <li class="file"><a href="/posts/courses/空间数据库/附件/附件1 课程练习/实验一/">实验一</a></li> 
+								<li class="file"><a href="/posts/courses/空间数据库/附件/附件1 课程练习/实验二/">实验二</a></li>
+							 </ul> 
+						</li>
+						<li class="directory">
+							<span style="color:black">
+								<i class="fa fa-folder-open"></i>
+								&nbsp;
+								附件2 SQL语言上机
+							</span>
+							 <ul style="display:block;"> 
+								 <li class="file"><a href="/posts/courses/空间数据库/附件/附件2 SQL语言上机/实验一/">实验一</a></li> 
+								<li class="file"><a href="/posts/courses/空间数据库/附件/附件2 SQL语言上机/实验二/">实验二</a></li>
+							 </ul> 
+						</li>
+						<li class="directory">
+							<span style="color:black">
+								<i class="fa fa-folder-open"></i>
+								&nbsp;
+								附件3 空间数据库上机
+							</span>
+							 <ul style="display:block;"> 
+								 <li class="file"><a href="/posts/courses/空间数据库/附件/附件3 空间数据库上机/实验一/">实验一</a></li> 
+								<li class="file"><a href="/posts/courses/空间数据库/附件/附件3 空间数据库上机/实验二/">实验二</a></li>
+							 </ul> 
+						</li>
+						 
+						 </ul> 
+    </div>
+</aside>
+            
+            <section id="main">
+<article id="post-空间数据库" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        内容正在建设中......       </h1>
+    
+
+            </header>
+        
+        
+         <div class="article-entry" itemprop="articleBody">
+                       
+		
+          
+		
+            <link rel="stylesheet" href="/css/weixin.css">
+			<script src="/libs/jquery/jquery-qrcode.min.js"></script>
+            <div class="weixinshare">
+			
+			<div class="share"><div id="code"></div>
+				<a class="wxlink" href="javascript:;">
+					<img src="/images/weixin.png"  alt="分享到朋友圈"/>
+				</a>
+			</div>
+		</div>
+		<script>
+			var link=$(".wxlink");
+			link.css("text-decoration","none")
+			$("#code").qrcode({ 
+				render: "canvas",
+				text: decodeURI(document.location.href+"mindex.html") //任意内容 
+			}); 
+			$("canvas").css("width","100px");
+			$("canvas").css("width","100px");
+			$("canvas").css("top","-105px");
+            $("canvas").css("position","absolute");
+			$("#code").css("display","none");
+			var img=$("#code");
+			link.mouseenter(function(){
+				img.show();
+			});
+			link.mouseleave(function(){
+				img.hide();
+			});
+		</script>
+		
+		
+		<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+		<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+		<script>
+		var cloudTieConfig = {
+		  url: document.location.href, 
+		  sourceId: "",
+		  productKey: "a7e8649e1b704ffcb65e74d2b08aac16",
+		  target: "cloud-tie-wrapper"
+		};
+		var yunManualLoad = true;
+		Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+		</script>
+		
+    </div>
+</article></section>
+        </div> 
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            GeoThinking &copy; 2017 
+            <a rel="license" href="javascript:;"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+            <br> Powered by Hexo &nbsp;All Rights Reserved &nbsp;<a href="http://www.geothinking.cn">GeoThinking</a>
+        </div>
+    </div>
+</footer>
+        
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div> 
+</body>
+</html>
